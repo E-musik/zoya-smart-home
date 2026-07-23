@@ -7,8 +7,7 @@
 
      <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet"
-  href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
 
   <!-- Font Awesome -->
   <link rel="stylesheet"
@@ -20,147 +19,528 @@
 <body>
 
         <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
     
     <div class="navbar-container">
 
         <a class="navbar-brand fw-bold" href="#" >
-        <img src="images/Zoyaa.png" alt="Zoya Smart Home" class="img-fluid" style="max-width: 150px; height: 100%;">
+         <img src="images/Zoyaa.png" alt="Zoya Smart Home" class="img-fluid" style="max-width: 150px; height: 100%;">
         </a>
 
         <button class="navbar-toggler" type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbar">
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar">
 
-        <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
         
 
         <div class="collapse navbar-collapse" id="navbar">
 
-        <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto">
 
-            <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
-            </li>
+                <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+                </li>
 
-            <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
-            </li>
+                <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+                </li>
 
-            <li class="nav-item">
-            <a class="nav-link" href="product.html">Products</a>
-            </li>
 
-            <li class="nav-item">
-            <a class="nav-link" href="#Contact">Contact</a>
-            </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+                </li>
 
-        </ul>
+            </ul>
 
-        <button id="darkModeBtn"
-            class="btn btn-outline-light ms-3">
-
-            Dark Mode
-
-        </button>
+           
         </div>
     </div>
     </nav>
 
 
-    <section id="smart-security" class="service-section py-5">
+<header class="services-hero">
+
+    <div class="container">
+
+        <h1>
+
+        Zoya Smart Home Services
+
+        </h1>
+
+        <p>
+
+        Delivering innovative automation, security and intelligent living solutions.
+
+        </p>
+
+        <a href="#Contact"
+        class="btn btn-primary">
+
+        Book Consultation
+
+        </a>
+
+    </div>
+
+</header>
+
+
+<!-- Service Menu -->
+    <section class="service-menu">
 
         <div class="container">
 
-            <h2 class="mb-4">
-                Smart Security Solutions
-            </h2>
+            <div class="row g-3">
 
-            <p>
-                Protect your home with intelligent surveillance,
-                smart locks, alarm systems and remote monitoring.
-            </p>
 
-            <!-- IMAGE SLIDER GOES HERE -->
-            <div id="securitySlider"
-                class="carousel slide my-5"
-                data-bs-ride="carousel">
+                <div class="col-md-3">
 
-                <div class="carousel-inner">
+                    <a href="#automation"
+                        class="menu-card">
 
-                    <div class="carousel-item active">
+                        <i class="fas fa-house"></i>
+
+                        Home & Hotel Automation
+
+                    </a>
+
+                </div>
+            
+            
+                <div class="col-md-3">
+
+                    <a href="#security" class="menu-card">
+
+                        <i class="fas fa-shield-alt"></i>
+
+                        Smart lock and Camera Systems
+
+                    </a>
+
+                </div>
+
+            
+
+                <div class="col-md-3">
+
+                    <a href="#lighting"
+                        class="menu-card">
+
+                        <i class="fas fa-lightbulb"></i>
+
+                        Matrix & Pixel Lighting
+
+                    </a>
+
+                </div>
+
+
+
+                <div class="col-md-3">
+
+                    <a href="#networking" 
+                        class="menu-card">
+                        
+                        <i class="fas fa-tv"></i>
+
+                        Networking
+                    </a>
+
+                </div>
+
+
+                <div class="col-md-3">
+
+                    <a href="#Multi-Room Audio" 
+                        class="menu-card">
+                        
+                        <i class="fas fa-volume-up"></i>
+
+                        Multi-Room Audio
+                    </a>
+
+                </div>
                 
-                        <img src="images/Camera instal.jpg" style="width: 30%; height: 30%;"
-                        class="d-block w-100 rounded"
-                        alt="Security Installation">
+                
+                <div class="col-md-3">
 
-                    </div>
+                    <a href="#gate-automation" 
+                        class="menu-card">
+                        
+                        <i class="fas fa-key"></i>
 
-                    <div class="carousel-item2">
+                        Smart Gate Automation
+                    </a>
 
-                        <img src="images/camara1.jpg" style="width: 20%; height: 20%;"
-                        class="d-block w-100 rounded"
-                        alt="Security Camera">
+                </div>
+                
+                
+                <div class="col-md-3">
 
-                    </div>
+                    <a href="#solar" 
+                        class="menu-card">
+                        
+                        <i class="fas fa-bolt"></i>
 
-                    <div class="carousel-item3">
+                        Solar Power Integration
+                    </a>
 
-                        <img src="images/security.jpg"style="width: 30%; height: 30%;"
-                        class="d-block w-100 rounded"
-                        alt="Smart Lock">
+                </div>
+                
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+        
+
+    <!-- SMART HOME AUTOMATION -->
+    <section id="automation" class="service-section py-5">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-6 order-lg-2">
+
+                    <h2 class="fw-bold mb-4">
+
+                        Smart Home Automation
+
+                    </h2>
+
+                    <p>
+
+                        Control your entire home from your smartphone, tablet or voice assistant. Create schedules, routines and scenes that simplify everyday living.
+
+                    </p>
+
+                    <ul class="service-list">
+
+                        <li>Central Smart Home Hub</li>
+
+                        <li>Voice Control Integration</li>
+
+                        <li>Remote Mobile Access</li>
+
+                        <li>Automation Scenes</li>
+
+                        <li>Energy Management</li>
+
+                        <li>Smart Scheduling</li>
+
+                        <li>Video Intercom</li>
+
+                        <li>Apartment Intercom</li>
+
+                        <li>Gate Communication</li>
+
+                        <li>Mobile App Control</li>
+
+                        <li>Two-Way Audio</li>
+
+                        <li>Visitor Recording</li>
+
+
+                    </ul>
+
+                    <a href="#Contact"
+                        class="btn btn-primary mt-3">
+
+                        Request Consultation
+
+                    </a>
+
+                </div>
+
+                <div class="col-lg-6 order-lg-1">
+
+                    <div id="automationSlider"
+                        class="carousel slide"
+                        data-bs-ride="carousel">
+
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+
+                                <img src="images/touchscreen alarm.jpg"
+                                class="d-block w-100"
+                                alt="Automation">
+
+                            </div>
+
+                            <div class="carousel-item">
+
+                                <img src="images/wall amp andriod.jpg"
+                                class="d-block w-100"
+                                alt="Automation">
+
+                            </div>
+
+                            <div class="carousel-item">
+
+                                <img src="images/power amp.jpg"
+                                class="d-block w-100"
+                                alt="Automation">
+
+                            </div>
+
+                        </div>
+
+                        <button class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#automationSlider"
+                            data-bs-slide="prev">
+
+                            <span class="carousel-control-prev-icon"></span>
+
+                        </button>
+
+                        <button class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#automationSlider"
+                            data-bs-slide="next">
+
+                            <span class="carousel-control-next-icon"></span>
+
+                        </button>
 
                     </div>
 
                 </div>
 
-                <button class="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#securitySlider"
-                    data-bs-slide="prev">
-
-                    <span class="carousel-control-prev-icon"></span>
-
-                </button>
-
-                <button class="carousel-control-next"
-                    type="button"
-                    data-bs-target="#securitySlider"
-                    data-bs-slide="next">
-
-                    <span class="carousel-control-next-icon"></span>
-
-                </button>
-
             </div>
 
-            <!-- VIDEO DEMO GOES HERE -->
-            <h3 class="mt-5 mb-3">
-                Installation Demonstration
-            </h3>
+        </div>
+
+    </section>
+
+
+
+    <section class="video-section py-5 bg-light">
+
+        <div class="container">
 
             <div class="row">
 
-                <div class="col-lg-6 mb-4">
+                <div class="col-lg-6">
 
                     <video controls class="w-100 rounded shadow">
 
-                        <source src="video/wiring.mp4" style="width: 50%; height: 30%;"
-                                type="video/mp4">
+                        <source src="videos/lock-demo1.mp4">
 
                     </video>
 
                 </div>
 
-                <div class="col-lg-6 mb-4">
+                <div class="col-lg-6">
+                    <div class="carousel-item-active">
 
-                    <video controls class="w-100 rounded shadow">
+                        <img src="images/wall amp andriod.jpg"
+                        class="d-block w-100"
+                        alt="Automation">
 
-                        <source src="videos/security-demo2.mp4"
-                                type="video/mp4">
+                    </div>
+                </div>
 
-                    </video>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SMART HOME SECURITY -->
+    <section id="security" class="service-section">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+
+                    <h2>
+
+                        Smart Door Locks and Security Solutions
+
+                    </h2>
+
+                    <p>
+
+                        Protect your home and business with intelligent surveillance systems, smart locks, gate openers,
+                        alarm systems, access control and remote monitoring that keep you connected wherever you are.
+
+                    </p>
+
+                    <ul class="service-list">
+
+                        <li>HD CCTV Installation</li>
+
+                        <li>Smart Door Locks</li>
+
+                        <li>Video Doorbells</li>
+
+                        <li>Motion Detection</li>
+
+                        <li>Alarm Systems</li>
+
+                        <li>Mobile Monitoring</li>
+
+                        <li>Fingerprint Access</li>
+
+                        <li>PIN Code Access</li>
+
+                        <li>RFID Cards</li>
+
+                        <li>Remote Unlocking</li>
+
+                        <li>Temporary Guest Access</li>
+
+                        <li>Access Logs</li>
+
+                        <li>4K CCTV Cameras</li>
+
+                        <li>PTZ Cameras</li>
+
+                        <li>Night Vision</li>
+
+                        <li>Motion Detection</li>
+
+                        <li>Cloud Recording</li>
+
+
+
+                    </ul>
+
+                    <a href="#Contact"
+                        class="btn btn-primary mt-4">
+
+                        Request Installation
+
+                    </a>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <div id="securitySlider"
+                        class="carousel slide"
+                        data-bs-ride="carousel">
+
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+
+                                <img src="images/security.jpg"
+                                class="d-block w-100"
+                                alt="Smart Security">
+
+                            </div>
+
+                            <div class="carousel-item">
+
+                                <img src="images/indoor camera.jpg"
+                                class="d-block w-100"
+                                alt="Security Camera">
+
+                            </div>
+
+                            <div class="carousel-item">
+
+                                <img src="images/doorlock wout cam.jpg"
+                                class="d-block w-100"
+                                alt="Smart Lock">
+
+                            </div>
+
+                            <div class="carousel-item">
+
+                                <img src="images/doorlock w cam.jpg"
+                                class="d-block w-100">
+
+                            </div>
+
+                            <div class="carousel-item">
+
+                                <img src="images/door sensor.jpg"
+                                class="d-block w-100">
+
+                            </div>
+
+                            <div class="carousel-item">
+
+                                <img src="images/doorlock wout cam.jpg"
+                                class="d-block w-100">
+
+                            </div>
+
+                            <div class="carousel-item">
+
+                                <img src="images/indoor camera.jpg"
+                                class="d-block w-100 rounded">
+
+                            </div>
+
+                            <div class="carousel-item">
+
+                                <img src="images/camara1.jpg"
+                                class="d-block w-100 rounded">
+
+                            </div>
+
+                            <div class="carousel-item">
+
+                                <img src="images/camera.jpg"
+                                class="d-block w-100 rounded">
+
+                            </div>
+
+                            <div class="col-lg-6">
+
+                                <img src="images/door bell.jpg"
+                                class="img-fluid rounded shadow">
+
+                            </div>
+
+                            <div class="col-lg-6">
+
+                                <img src="images/ir blaster.jpg"
+                                class="img-fluid rounded shadow">
+
+                            </div>
+
+
+                        </div>
+
+                        
+
+                        <button class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#securitySlider"
+                            data-bs-slide="prev">
+
+                            <span class="carousel-control-prev-icon"></span>
+
+                        </button>
+
+                        <button class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#securitySlider"
+                            data-bs-slide="next">
+
+                            <span class="carousel-control-next-icon"></span>
+
+                        </button>
+                    
+                    
+
+                    </div>
 
                 </div>
 
@@ -171,116 +551,759 @@
     </section>
 
 
-    
+
+    <section class="video-section py-5 bg-light">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-6">
+                    
+                    <div class="carousel-item-active">
+
+                        <img src="images/IR + RF Blaster.jpg"
+                        class="d-block w-100"
+                        alt="Automation">
+
+                    </div>
+                
+                </div>
+                
+                <div class="col-lg-6">
+
+                    <video controls class="w-100 rounded shadow">
+
+                        <source src="videos/lock-demo1.mp4">
+
+                    </video>
+
+                </div>
 
 
+            </div>
 
-    <section id="smart-security">
-        <h2>Smart Security</h2>
-        <p>Complete CCTV, alarm, and smart lock solutions.</p>
+        </div>
+
     </section>
 
-    <section id="home-automation">
-        <h2>Home Automation</h2>
-        <p>Control lights, curtains, appliances and more.</p>
+
+    <!-- SMART HOME LIGHTING -->
+    <section id="lighting" class="service-section py-5">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+
+                    <h2>
+
+                        Matrix & Pixel Lighting
+
+                    </h2>
+
+                    <p>
+
+                        Transform your home with intelligent lighting systems that offer convenience, comfort and energy savings.
+
+                    </p>
+
+                    <ul class="service-list">
+
+                        <li>Smart Switches</li>
+
+                        <li>RGB Lighting</li>
+
+                        <li>Voice Controlled Lights</li>
+
+                        <li>Outdoor Lighting</li>
+
+                        <li>Motion Sensors</li>
+
+                        <li>Dimming Control</li>
+
+                        <li>Smoke Detectors</li>
+
+                        <li>Heat Sensors</li>
+
+                        <li>Fire Alarm Panels</li>
+
+                        <li>Emergency Alerts</li>
+
+                        <li>Building Integration</li>
+
+                        <li>Annual Maintenance</li>
+
+
+                    </ul>
+
+                    <a href="#contact"
+                        class="btn btn-primary mt-3">
+
+                        Book Installation
+
+                    </a>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <div id="lightingSlider"
+                        class="carousel slide"
+                        data-bs-ride="carousel">
+
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+
+                                <img src="images/step light.jpg"
+                                class="d-block w-100">
+
+                            </div>
+
+                            <div class="carousel-item">
+
+                                <img src="images/IR + RF Blaster.jpg"
+                                class="d-block w-100">
+
+                            </div>
+
+                            <div class="carousel-item">
+
+                                <img src="images/123 gang sw.jpg"
+                                class="d-block w-100">
+
+                            </div>
+
+                            <div class="carousel-item">
+
+                                <img src="images/motion sensor.jpg"
+                                class="d-block w-100 rounded">
+
+                            </div>
+
+                            <div class="carousel-item">
+
+                                <img src="images/fire sensor.jpg"
+                                class="img-fluid rounded shadow">
+
+                            </div>
+
+                            <div class="carousel-item">
+
+                                <img src="images/smoke sensor.jpg"
+                                class="img-fluid rounded shadow">
+
+                            </div>
+
+
+                            <div class="carousel-item">
+
+                                <img src="images/single socket.jpg"
+                                class="d-block w-100 rounded">
+
+                            </div>
+                            
+
+                            <div class="carousel-item active">
+
+                                <img src="images/tapelight.jpg"
+                                class="img-fluid rounded shadow">
+
+                            </div>
+
+                        </div>
+
+                        <button class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#lightingSlider"
+                            data-bs-slide="prev">
+
+                            <span class="carousel-control-prev-icon"></span>
+
+                        </button>
+
+                        <button class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#lightingSlider"
+                            data-bs-slide="next">
+
+                            <span class="carousel-control-next-icon"></span>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </section>
 
-    <section id="smart-lighting">
-        <h2>Smart Lighting</h2>
-        <p>Intelligent lighting systems for modern homes.</p>
+
+    <section class="video-section py-5 bg-light">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-6">
+
+                    <video controls class="w-100 rounded shadow">
+
+                        <source src="videos/lock-demo1.mp4">
+
+                    </video>
+
+                </div>
+                
+                <div class="col-lg-6">
+                    
+                    <div class="carousel-item-active">
+
+                        <img src="images/steplight sensor.jpg"
+                        class="d-block w-100"
+                        alt="Automation">
+
+                    </div>
+                
+                </div>
+
+            </div>
+
+        </div>
+
     </section>
-    
 
 
-    
+    <!-- ==================
+        Home Networking
+    ==================== -->
+
+    <section id="networking" class="service-section py-5 bg-light">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+
+                    <h2>
+
+                        Home Networking
+
+                    </h2>
+
+                    <p>
+
+                        Reliable internet is the foundation of every smart home. 
+                        We install and optimize secure, high-performance wired and wireless networks.
+
+                    </p>
+
+                    <ul class="service-list">
+
+                        <li>Mesh Wi-Fi</li>
+
+                        <li>Router Configuration</li>
+
+                        <li>Network Security</li>
+
+                        <li>Structured Cabling</li>
+
+                        <li>Access Points</li>
+
+                        <li>Internet Optimization</li>
+
+                    </ul>
+
+                    <a href="#Contact"
+                        class="btn btn-primary">
+
+                        Get Started
+
+                    </a>
+
+                </div>
+
+                <div class="col-lg-6">
+                    <div id="gateSlider"
+                        class="carousel slide"
+                        data-bs-ride="carousel">
+
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <img src="images/router.jpg"
+                                class="d-block w-100 rounded">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="images/access point.jpg"
+                                class="d-block w-100 rounded">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="images/ir blaster.jpg"
+                                class="d-block w-100 rounded">
+                            </div>
+
+                        </div>
+
+                        <button class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#gateSlider"
+                            data-bs-slide="prev">
+
+                            <span class="carousel-control-prev-icon"></span>
+
+                        </button>
+
+                        <button class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#gateSlider"
+                            data-bs-slide="next">
+
+                            <span class="carousel-control-next-icon"></span>
+
+                        </button>
+
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="video-section py-5">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6">
+                            
+                    <div class="carousel-item-active">
+
+                        <img src="images/ir blaster.jpg"
+                        class="d-block w-100"
+                        alt="Automation">
+
+                    </div>
+                        
+                </div>
+
+                <div class="col-lg-6">
+
+                    <video controls class="w-100 rounded shadow">
+
+                    <source src="videos/network-demo.mp4">
+
+                    </video>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+                
+
+    </section>
+
+
+    <section id="Multi-Room Audio" class="service-section py-5">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+
+                    <h2>
+
+                        Multi-Room Audio
+
+                    </h2>
+
+                    <p>
+
+                        Enjoy synchronized or independent music throughout your home with premium 
+                        wireless audio systems.
+
+                    </p>
+
+                    <ul class="service-list">
+
+                        <li>Ceiling Speakers</li>
+
+                        <li>Outdoor Audio</li>
+
+                        <li>Multi-Zone Control</li>
+
+                        <li>Streaming Integration</li>
+
+                        <li>Voice Control</li>
+
+                        <li>Amplifier Installation</li>
+
+                    </ul>
+
+                    <a href="#Contact"
+                        class="btn btn-primary">
+
+                        Learn More
+
+                    </a>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <img src="images/ceiling speaker.jpg"
+                    class="img-fluid rounded shadow">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="video-section py-5">
+
+        <div class="container">
+            
+            <div class="row">
+                
+                <div class="col-lg-6">
+
+                    <video controls class="w-100 rounded shadow">
+
+                    <source src="videos/audio-demo.mp4">
+
+                    </video>
+
+                </div>
+
+            
+                <div class="col-lg-6">
+                                    
+                    <div class="carousel-item-active">
+
+                        <img src="images/hanging speaker.jpg"
+                        class="d-block w-100"
+                        alt="Automation">
+
+                    </div>
+                
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- SMART GATE AUTOMATION -->
+    <section id="gate-automation" class="service-section py-5 bg-light">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+
+                    <h2>Smart Gate Automation</h2>
+
+                    <p>
+                        Automate residential and commercial gates with secure access control and remote operation.
+                    </p>
+
+                    <ul class="service-list">
+
+                        <li>Sliding Gates</li>
+                        <li>Swing Gates</li>
+                        <li>Remote Controls</li>
+                        <li>RFID Access</li>
+                        <li>GSM Opening</li>
+                        <li>Safety Sensors</li>
+
+                    </ul>
+
+                    <a href="#Contact" class="btn btn-primary mt-3">
+                        Request Installation
+                    </a>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <div id="gateSlider"
+                        class="carousel slide"
+                        data-bs-ride="carousel">
+
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <img src="images/gate opener1.jpg"
+                                class="d-block w-100 rounded">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="images/gate opener.jpg"
+                                class="d-block w-100 rounded">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="images/gate remote.jpg"
+                                class="d-block w-100 rounded">
+                            </div>
+
+                        </div>
+
+                        <button class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#gateSlider"
+                            data-bs-slide="prev">
+
+                            <span class="carousel-control-prev-icon"></span>
+
+                        </button>
+
+                        <button class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#gateSlider"
+                            data-bs-slide="next">
+
+                            <span class="carousel-control-next-icon"></span>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="video-section py-5 bg-light">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-6">
+                                    
+                    <div class="carousel-item-active">
+
+                        <img src="images/gate remote.jpg"
+                        class="d-block w-100"
+                        alt="Automation">
+
+                    </div>
+                
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <video controls class="w-100 rounded shadow">
+
+                        <source src="videos/lock-demo1.mp4">
+
+                    </video>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="solar" class="service-section py-5 bg-light">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-6">
+
+                    <h2>Solar Power Integration</h2>
+
+                    <p>
+
+                        Power your smart home with efficient solar systems integrated with batteries, inverters and energy monitoring.
+
+                    </p>
+
+                    <ul class="service-list">
+
+                        <li>Solar Panels</li>
+
+                        <li>Hybrid Inverters</li>
+
+                        <li>Battery Storage</li>
+
+                        <li>Energy Monitoring</li>
+
+                        <li>Backup Systems</li>
+
+                        <li>Maintenance</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-lg-6">
+
+                    <img src="images/power station.jpg"
+                    class="img-fluid rounded shadow">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="service-cta">
+
+        <div class="container text-center">
+
+            <h2>
+
+                Ready to Build Your Smart Home?
+
+            </h2>
+
+            <p>
+
+            Whether you need home automation, CCTV, smart lighting, or a complete 
+            intelligent home solution, our team is ready to help.
+
+            </p>
+
+            <a href="#Contact.html" class="btn btn-primary btn-lg">
+
+                Request a Free Consultation
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+
+
     <!-- CONTACT -->
     <section id="Contact" class="py-5">
     <br><br><br><br>
-    <div class="contact-container">
+        <div class="contact-container">
 
-        <div class="text-center mb-5">
+            <div class="text-center mb-5">
 
-        <h2 class="fw-bold">Contact Us</h2>
+            <h2 class="fw-bold">Contact Us</h2>
 
-        <p>Get in touch with our team today</p>
+            <p>Get in touch with our team today</p>
 
-        </div>
+            </div>
 
-        <div class="row">
+            <div class="row">
 
-        <div class="col-lg-4">
+            <div class="col-lg-4">
 
-            <form>
+                <form>
 
-            <input type="text"
-            class="form-control mb-3"
-            placeholder="Your Name">
+                <input type="text"
+                class="form-control mb-3"
+                placeholder="Your Name">
 
-            <input type="email"
-            class="form-control mb-3"
-            placeholder="Your Email">
+                <input type="email"
+                class="form-control mb-3"
+                placeholder="Your Email">
 
-            <textarea class="form-control mb-3"
-            rows="5"
-            placeholder="Your Message"></textarea>
+                <textarea class="form-control mb-3"
+                rows="5"
+                placeholder="Your Message"></textarea>
 
-            <button class="btn btn-dark">
-                Send Message
-            </button>
+                <button class="btn btn-dark">
+                    Send Message
+                </button>
 
-            </form>
+                </form>
 
-        </div>
+            </div>
 
-        <div class="col-lg-4">
+            <div class="col-lg-4">
 
-            <p class="contact-info">
+                <p class="contact-info">
 
-            <h4>Office Information</h4>
-
-            <p>
-                Benin City, Nigeria
-            </p>
-
-            <p>
-                Call Line: +234 912 878 3205
-            </p>
-
-            <p>
-                Email: info@zoyasmarthome.com
-            </p>
+                <h4>Office Information</h4>
 
                 <p>
-                <a href="http://facebook.com/zoyasmarthome" 
-                target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-facebook fs-1" ></i></a>
-                <a href="http://instagram.com/zoya_smart_home" 
-                target="_blank" rel="noopener noreferrer" style="color: rgba(218, 81, 27, 0.726);">
-                    <i class="fab fa-instagram fs-1"></i></a>
-                <a href="http://wa.me/2349128783205" style="color: lightgreen;" 
-                target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-whatsapp fs-1"></i></a>
-                <a href="http://linkedin.com/company/zoyasmarthome" 
-                target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-linkedin fs-1"></i></a>
+                    Benin City, Nigeria
                 </p>
-            
-            </p>
+
+                <p>
+                    Call Line: +234 912 878 3205
+                </p>
+
+                <p>
+                    Email: info@zoyasmarthome.com
+                </p>
+
+                    <p>
+                    <a href="http://facebook.com/zoyasmarthome" 
+                    target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-facebook fs-1" ></i></a>
+                    <a href="http://instagram.com/zoya_smart_home" 
+                    target="_blank" rel="noopener noreferrer" style="color: rgba(218, 81, 27, 0.726);">
+                        <i class="fab fa-instagram fs-1"></i></a>
+                    <a href="http://wa.me/2349128783205" style="color: lightgreen;" 
+                    target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp fs-1"></i></a>
+                    <a href="http://linkedin.com/company/zoyasmarthome" 
+                    target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin fs-1"></i></a>
+                    </p>
+                
+                </p>
+            </div>
+            <div id="location" class="location col-lg-4">
+                <h2>Our Location</h2>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d260.0622460797674!2d5.627851054623563!3d6.335968014615474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1040d38354de2821%3A0x457425f85fbfe11d!2sZOYA%20SMART%20HOMES%20LTD!5e0!3m2!1sen!2sng!4v1782985428788!5m2!1sen!2sng" 
+                width="600" height="450" style="border:0;
+                " allowfullscreen="" loading="lazy" 
+                referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+
+            </div>
+
+            </div>
+
         </div>
-        <div id="location" class="location col-lg-4">
-            <h2>Our Location</h2>
-
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d260.0622460797674!2d5.627851054623563!3d6.335968014615474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1040d38354de2821%3A0x457425f85fbfe11d!2sZOYA%20SMART%20HOMES%20LTD!5e0!3m2!1sen!2sng!4v1782985428788!5m2!1sen!2sng" 
-            width="600" height="450" style="border:0;
-            " allowfullscreen="" loading="lazy" 
-            referrerpolicy="strict-origin-when-cross-origin">
-            </iframe>
-
-        </div>
-
-        </div>
-
-    </div>
     
     </section>
 
