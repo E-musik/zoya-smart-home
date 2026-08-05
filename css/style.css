@@ -53,64 +53,32 @@ body {
     width:150px;
     height:auto;
 }
+/* Mobile */
 
-@media(max-width:768px){
-
-    .navbar-logo{
-        width:120px;
-    }
-
-}
-
-@media(max-width:480px){
-
-    .navbar-logo{
-        width:100px;
-    }
-
-}
-
-@media (max-width:991px){
-
-    .navbar-container{
-        padding:10px 15px;
-    }
-
-    .navbar-brand img{
-        max-width:120px;
-    }
+@media(max-width:991px){
 
     .navbar-collapse{
-        background:#212529;
-        margin-top:10px;
-        padding:15px;
+        margin-top:20px;
+        background:#1a1a1a7a;
+        
         border-radius:10px;
+        position:absolute;
+        top:80%;
+        left:80%;
+        right:0;
     }
 
+
     .navbar-nav{
-        text-align: end;
-        gap:0;
+        text-align:center;
     }
 
     .navbar-nav .nav-item{
-        margin:8px 0;
+        margin:10px 0;
     }
 
-    #darkModeBtn{
-        width:100%;
-        margin-top:15px;
-    }
-
-}
-
-@media (min-width:992px){
-
-    .navbar-nav{
-        align-items:center;
-    }
-
-    #darkModeBtn{
-        margin-left:20px;
+    .navbar-logo{
+        width:150px;
     }
 
 }
@@ -290,6 +258,7 @@ body {
 
 .service-link{
     text-decoration:none;
+    color:inherit;
 }
 
 /* Card */
@@ -311,6 +280,7 @@ body {
     height:100%;
 
     border:1px solid transparent;
+    
     align-items: center;
 
 }
